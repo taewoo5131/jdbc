@@ -17,7 +17,6 @@ import java.sql.SQLException;
 /**
  * 트랜잭션 - 트랜잭션 매니저
  */
-@Service
 @RequiredArgsConstructor
 public class MemberServiceV3_1 {
     private final PlatformTransactionManager transactionManager;

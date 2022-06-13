@@ -14,7 +14,6 @@ import java.sql.SQLException;
 /**
  * 트랜잭션 - 트랜잭션 템플릿
  */
-@Service
 public class MemberServiceV3_2 {
 //    private final PlatformTransactionManager transactionManager;
     private final TransactionTemplate txTemplate;
